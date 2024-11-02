@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>goD MEME Maker</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>goD MEME Maker</h1>
+        <p class="author-note">This tool was created by a passerby, fully developed with ChatGPT</p>
+        <div class="upload-section">
+            <input type="file" id="bgImageInput" accept="image/*">
+            <label for="bgImageInput" class="upload-btn">Upload Background Image</label>
+        </div>
+        <p class="operation-tips">
+            Tips: <br>
+            • Click and drag to move the overlay image<br>
+            • Use mouse wheel to zoom in/out
+        </p>
+        <div class="canvas-container">
+            <canvas id="previewCanvas"></canvas>
+        </div>
+        <button id="clearBtn" class="clear-btn">Clear Background</button>
+        <button id="generateBtn" class="generate-btn">Generate Composite</button>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
